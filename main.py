@@ -15,3 +15,6 @@ class Producto(BaseModel):
   nombre: str
   precio: float
   stock: int
+
+# 3. Base de datos simulada (Lista en memoria)
+db_productos = []
